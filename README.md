@@ -35,7 +35,7 @@ These commands work in any terminal, they are independent from Git.
 - `git commit`
    - `git commit -m 'this is a new commit'` commits all the files added previously with `git add`
 - `git checkout` takes you to another branch
-  - `git -b 'new-branch' creates a new branch and takes you there
+  - `git -b 'new-branch-name'` creates a new branch and takes you there
 - `git log` shows you a list of commits on the branch
 - `git push` 'uploads' your last commits to the branch
 - `git pull` 'downloads' whatever content you have on the same branch in the remote origin
