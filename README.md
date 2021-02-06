@@ -1,16 +1,18 @@
-# githubtraining
+# Git + Github Intro
+
 ## What is Git?
 `Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.` Definition by [Git Official Site]('https://git-scm.com/')
 ## OK, so what is Git?
   Imagine you are a coder who finds a parallel universe jumping and time traveling machine that only works for your code. Your machine would be Git. 
 ## What do I use this powerful machine for?
-  You are working, you have a deadline tomorrow. You have many features to develop, you have to create homepage, an about us page and a page with a contact form. If you work on the same code without using your Git machine you are probably going to make mistakes, delete files accidentally, get confused and work on something for an hour just to realize that the initial code was better, etc. You might also break your website in the process of adding a new feature. Maybe you want to take a break from the about us page and work on the contact form for a while, then come back to it later. Git gives you all these possibilities and more. 
+  You are working, you have a deadline tomorrow. If you work on the same code without using your Git machine you are probably going to make mistakes, delete files accidentally, get confused and work on something for an hour just to realize that the initial code was better, etc. You might also break your website in the process of adding a new feature... Or maybe you want to take a break from the about us page and work on the contact form for a while, then come back to it later. Git gives you the possibility to work clean, to be able to go back to changes you made in the past or to jump into another feature without finishing the original one, and much more.
 ## But what is GitHub/GitLab/etc? 
   GitHub/GitLab/etc is your Git in the cloud. All the work you do with the Git machine, you can upload it to a new 'repository' (project!) to access it later, to share with other people and work collaboratively.
-  
+
+##Let's go!
 
 ## Common terminal commands
-These commands works in any terminal, they are independent from Git.
+These commands work in any terminal, they are independent from Git.
 - `cd` navigates to a folder. I.e.: `cd b:/dev/newrepo`
 - `mkdir`makes a new directory (folder). I.e.: `mkdir newfolder` 
 - `ls` shows you the content of the folder you are in.
@@ -18,10 +20,10 @@ These commands works in any terminal, they are independent from Git.
 
 ## Common Git terms
 - Working directory: the folder where we are currently working.
-- Staging area (git index): contains all the changes that are ready to be committed and that you have added with `git add`. To 'stage' a file means to track the file so you know when it has changes and you can commit it.
+- Staging area (git index): contains all the changes that are ready to be committed and that you have added with `git add`. To 'stage' a file means to put that file to the side, to be committed later.
 - Local Repository (.git): your git initiated 'project' in your computer
 - Remote: whatever is not in your local machine but on the internet. 
-- Branch: you take a picture
+- Branch: it's a deviation of your original code. You have a starting point in your code (master or main branch), you branch it and you continue working on it. You will have the "base" of where you started but at the same time new code that is not on your main branch. When you are done coding on your new branch, you can "merge" it with your starting point (main branch). You can have as many branches as you want.
  
 ## Common Git Commands
 - `git init` starts a new local repository
