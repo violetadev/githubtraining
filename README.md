@@ -18,14 +18,15 @@ These commands works in any terminal, they are independent from Git.
 
 ## Common Git terms
 - Working directory: the folder where we are currently working.
-- Staging area (git index): contains all the changes that are ready to be committed and that you have added with `git add`. To 'stage' a file means to add it so you can commit it.
-- Local Repository (.git): your git initiated 'project' 
+- Staging area (git index): contains all the changes that are ready to be committed and that you have added with `git add`. To 'stage' a file means to track the file so you know when it has changes and you can commit it.
+- Local Repository (.git): your git initiated 'project' in your computer
+- Remote: whatever is not in your local machine but on the internet. 
 - Branch: you take a picture
  
 ## Common Git Commands
 - `git init` starts a new local repository
 - `git status` shows you the files that have been modified but not committed 
-- `git add` adds the files that have been edited
+- `git add` adds the files that have been edited so you can track changes
   - `git add .` adds all the files that have been edited
    - `git add src/` adds all the content that has been edited in the folder of your choice
 - `git rm` removes files that has been staged
@@ -44,4 +45,12 @@ These commands works in any terminal, they are independent from Git.
  
 ## Initializing a new repository
 - Create and navigate to a new folder
-- `git init` to create a new repository
+- `git init` to create a new repository in your local machine
+
+## Linking your git repository with your Github account
+- Go to your Github account and create a new repository
+- Go back to your console, cd into your active project and type:
+- `git remote add origin https://github.com/your_username/your_repository_name.git`
+- Now everytime you push a commit it will be uploaded to your github repository
+
+ 
