@@ -31,7 +31,7 @@ These commands work in any terminal, they are independent from Git.
 - `git add` adds the files that have been edited so you can track changes
   - `git add .` adds all the files that have been edited
    - `git add src/` adds all the content that has been edited in the folder of your choice
-- `git rm` removes files that has been staged
+- `git reset HEAD <file>` removes files that has been staged
 - `git commit`
    - `git commit -m 'this is a new commit'` commits all the files added previously with `git add`
 - `git checkout` takes you to another branch
